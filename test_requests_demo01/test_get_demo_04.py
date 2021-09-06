@@ -8,6 +8,8 @@ str_dict={'name':'xiaoming','age':22}
 str1=json.dumps(str_dict)
 print(type(str1))
 print(str1)
+print(str2)
+
 
 str2='{"name":"xiaoming","age":22}'
 str_json=json.loads(str2)
